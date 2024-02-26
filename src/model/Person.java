@@ -27,8 +27,7 @@ public class Person{
     }
 
     public String toString(){
-        return "name: " + this.name; 
+        return "{ name: " + this.name + ", " + " id: " + this.id "}";
     }
-
 
 }
